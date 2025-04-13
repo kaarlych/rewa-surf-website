@@ -1,0 +1,42 @@
+# === GENERAL / GLOBAL ===
+.DS_Store
+*.log
+*.swp
+.vscode/
+.idea/
+
+# === FRONTEND: React / JS ===
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.eslintcache
+frontend/.parcel-cache/
+frontend/dist/
+frontend/coverage/
+
+# === BACKEND: Python / Flask ===
+backend/__pycache__/
+backend/.venv/
+backend/*.py[cod]
+backend/*.pyo
+backend/*.pyd
+backend/*.pdb
+backend/*.egg
+backend/*.egg-info/
+backend/.mypy_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.cache/
+backend/instance/
+backend/*.sqlite3
+backend/*.db
+backend/.env
+
+# === DATABASE: MongoDB (if storing dumps locally) ===
+*.bson
+*.mongodb
+*.mongo
+
+# === MISC ===
+*.env
+.env.*
